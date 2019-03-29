@@ -27,3 +27,6 @@ class CppUtils(ConanFile):
     def package(self):
         cmake = self.configure_cmake()
         cmake.install()
+
+    def package_id(self):
+        self.info.header_only()
