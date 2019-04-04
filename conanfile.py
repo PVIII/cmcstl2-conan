@@ -27,6 +27,8 @@ class CmcStl2(ConanFile):
     def package(self):
         cmake = self.configure_cmake()
         cmake.install()
+        self.copy("LICENSE.txt")
+        self.copy("README.md")
 
     def package_id(self):
         self.info.header_only()
