@@ -1,6 +1,6 @@
 from conans import ConanFile, CMake, tools
 
-class CppUtils(ConanFile):
+class CmcStl2(ConanFile):
     name = "cmcstl2"
     version = "bee0705"
     url = "http://github.com/CaseyCarter/cmcstl2.git"
