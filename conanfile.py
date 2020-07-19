@@ -2,7 +2,7 @@ from conans import ConanFile, CMake, tools
 
 class CmcStl2(ConanFile):
     name = "cmcstl2"
-    version = "bee0705"
+    version = "684a96d"
     url = "http://github.com/CaseyCarter/cmcstl2.git"
     license = "BSL-1.0"
     description = "An implementation of C++ Extensions for Ranges."
